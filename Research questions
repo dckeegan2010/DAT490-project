@@ -1,0 +1,7 @@
+Research Questions
+
+Question 1. How much do prices for common, shoppable hospital services vary across hospitals in the Philadelphia metropolitan area, and what hospital- and community-level factors best explain that variation?
+-Relatively easy analysis, maybe too simple. Focus will be on building the database and cleaning the data. Compare the same CPT/DRG codes across hospitals. Compute price dispersion (IQR, CV, min/max ratios). Maybe try to incorporate or calculate HHI.  Test whether “less competition = higher prices”
+
+Question 2. Are hospitals serving lower-income or higher-Medicaid populations in the Philadelphia region associated with systematically higher or lower negotiated prices for common procedures?
+-Adds a level of complexity, demographic data is easily obtained from census tract data, could incorporate geographic information science tools. Examine whether payer mix, median income, or racial composition predicts pricing. Model price as a function of socioeconomic variables. We could also incorporate the individual institution's hospital system affiliation, bed count, and ownership. 
